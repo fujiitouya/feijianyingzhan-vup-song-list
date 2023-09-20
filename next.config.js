@@ -2,7 +2,7 @@ module.exports = {
   trailingSlash: true,
   exportPathMap: function () {
     return {
-      '/feijianyingzhan-vup-song-list': {page: "/feijianyingzhan-vup-song-list"},
+      '/': {page: "/"},
       '/404': {page: "/404"}
     }
   },
